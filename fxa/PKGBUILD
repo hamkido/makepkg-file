@@ -1,4 +1,4 @@
-# Maintainer:  <hamki@libre>
+# Maintainer: hamkido <hamki.do@2000@gmail.com>
 pkgname=fxa
 pkgver=1.199.0
 pkgrel=1
@@ -21,11 +21,11 @@ install=
 changelog=
 source=("https://github.com/mozilla/$pkgname/archive/v$pkgver.tar.gz")
 noextract=()
-md5sums=(72f831cfecff6ed644e26ff44825b99d)
+sha256sums=('6d4cf8733795ba3353b55f763977e921e02edde3699462bb755bb1bbc60d7a3b')
 
 
 build() {
-  cd "$srcdir/$pkgname-v$pkgver"
+  cd "$srcdir/v$pkgver"
 
   ./configure --prefix=/usr
   make
