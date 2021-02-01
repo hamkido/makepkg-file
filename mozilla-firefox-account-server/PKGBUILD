@@ -1,0 +1,46 @@
+# Maintainer:  <hamki@libre>
+pkgname=fxa
+pkgver=1.199.0
+pkgrel=1
+epoch=
+pkgdesc=" Monorepo for Firefox Accounts"
+arch=('i686' 'x86_64')
+url="https://github.com/mozilla/fxa"
+license=('MPL2')
+groups=()
+depends=('npm yarn>=1.22.0')
+makedepends=()
+checkdepends=()
+optdepends=()
+provides=()
+conflicts=()
+replaces=()
+backup=()
+options=()
+install=
+changelog=
+source=("https://github.com/mozilla/$pkgname/archive/v$pkgver.tar.gz")
+noextract=()
+md5sums=(72f831cfecff6ed644e26ff44825b99d)
+
+
+build() {
+  cd "$srcdir/$pkgname-v$pkgver"
+
+  ./configure --prefix=/usr
+  make
+}
+
+check() {
+  cd "$srcdir/$pkgname-$pkgver"
+
+  make -k check
+}
+
+package() {
+  cd "$srcdir/$pkgname-$pkgver"
+
+  make DESTDIR="$pkgdir/" install
+}
+
+# vim:set ts=2 sw=2 et:
