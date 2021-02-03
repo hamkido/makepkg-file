@@ -1,3 +1,6 @@
 [submodule "mozilla-service-syncstorage-rs"]
 	path = mozilla-service-syncstorage-rs
 	url = https://github.com/hamkido/mozilla-service-syncstorage-rs
+[submodule "mozilla-firefox-sync-server"]
+	path = mozilla-firefox-sync-server
+	url = https://github.com/hamkido/mozilla-firefox-sync-server
