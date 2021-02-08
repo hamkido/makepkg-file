@@ -4,3 +4,21 @@
 [submodule "mozilla-firefox-sync-server"]
 	path = mozilla-firefox-sync-server
 	url = https://github.com/hamkido/mozilla-firefox-sync-server
+[submodule "EliverLara-nordic-theme"]
+	path = EliverLara-nordic-theme
+	url = https://github.com/hamkido/EliverLara-nordic-theme
+[submodule "EliverLara-nordic-standard-buttons-theme"]
+	path = EliverLara-nordic-standard-buttons-theme
+	url = https://github.com/hamkido/EliverLara-nordic-standard-buttons-theme
+[submodule "EliverLara-nordic-darker-theme"]
+	path = EliverLara-nordic-darker-theme
+	url = https://github.com/hamkido/EliverLara-nordic-darker-theme
+[submodule "EliverLara-nordic-darker-standard-buttons-theme"]
+	path = EliverLara-nordic-darker-standard-buttons-theme
+	url = https://github.com/hamkido/EliverLara-nordic-darker-standard-buttons-theme
+[submodule "EliverLara-nordic-bluish-accent-theme"]
+	path = EliverLara-nordic-bluish-accent-theme
+	url = https://github.com/hamkido/EliverLara-nordic-bluish-accent-theme
+[submodule "EliverLara-nordic-bluish-accent-standard-buttons"]
+	path = EliverLara-nordic-bluish-accent-standard-buttons
+	url = https://github.com/hamkido/EliverLara-nordic-bluish-accent-standard-buttons
